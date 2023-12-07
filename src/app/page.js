@@ -8,6 +8,7 @@ export default function Home() {
     <div id={styles.container}>
       <HomePage />
       <Blog />
+      hah
     </div>
   );
 }
