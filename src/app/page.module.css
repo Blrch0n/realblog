@@ -1,0 +1,67 @@
+#container {
+  max-width: 1917px;
+  width: 100%;
+  margin: auto;
+}
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 12px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+#search {
+  background-color: gainsboro;
+  padding-left: 8px;
+}
+#footer {
+  width: 1215px;
+}
+.grid1 {
+  width: 290px;
+}
+.footer_child {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#lastpart {
+  display: flex;
+  justify-content: center;
+  background-color: #e8e8ea;
+  padding: 64px;
+}
+.blog_father {
+  width: 1215px;
+  margin: auto;
+}
+.blog {
+  margin-top: 32px;
+  width: 393px;
+  height: 472px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 16px;
+  position: relative;
+  border: solid #e8e8ea 1px;
+}
+.blog_card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+
+  width: 1215px;
+  margin: auto;
+}
+.more {
+  width: 123px;
+  height: 48px;
+  padding: 12px;
+  border: solid #e8e8ea 1px;
+  font-size: 15px;
+  border-radius: 8px;
+}
+.more:hover {
+  background-color: #e8e8ea;
+}

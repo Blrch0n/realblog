@@ -1,5 +1,13 @@
-import Image from "next/image";
+"use client";
+import styles from "@/app/page.module.css";
+import Blog from "@/app/posts/Blog";
+import HomePage from "./posts/HomePage";
 
 export default function Home() {
-  return <div>Hahahha</div>;
+  return (
+    <div id={styles.container}>
+      <HomePage />
+      <Blog />
+    </div>
+  );
 }
